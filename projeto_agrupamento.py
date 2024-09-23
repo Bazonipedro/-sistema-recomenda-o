@@ -15,12 +15,12 @@ import numpy as np
 #KMeans
 from sklearn.cluster import KMeans
 filmes_assistidos = np.array([
-    [1, 0, 0, 1], #Usuário 1: Assistiu aos filmes 1 e 4
-    [1, 1, 0, 0], #Usuário 2: Assistiu aos filmes 1 e 2
-    [0, 1, 1, 0], #Usuário 3: Assistiu aos filmes 2 e 3
-    [0, 0, 1, 1], #Usuário 4: Assistiu aos filmes 3 e 4
-    [1, 0, 1, 0], #Usuário 5: Assistiu aos filmes 1 e 3
-    [0, 1, 0, 1]  #Usuário 6: Assistiu aos filmes 2 e 4
+    [1, 0, 0, 1, 0, 1], #Usuário 1: Assistiu aos filmes 1 e 4
+    [1, 1, 0, 0, 1, 1], #Usuário 2: Assistiu aos filmes 1 e 2
+    [0, 1, 1, 0, 0, 0], #Usuário 3: Assistiu aos filmes 2 e 3
+    [0, 0, 1, 1, 1, 0], #Usuário 4: Assistiu aos filmes 3 e 4
+    [1, 0, 1, 0, 0, 0], #Usuário 5: Assistiu aos filmes 1 e 3
+    [0, 1, 0, 1, 1, 0] #Usuário 6: Assistiu aos filmes 2 e 4
 ])
 
 # Treinar o modelo
